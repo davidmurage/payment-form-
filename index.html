@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Payment Form</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+     <div class="container space">
+        <h1>Confirm Your Payment</h1>
+        <div class="first-row">
+            <div class="owner">
+                <h3>Owner:</h3>
+                
+                <div class="input-field">
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="cvv space">
+                <h3>CVV:</h3>
+
+                <div class="input-field">
+                    <input type="password">
+                </div>
+            </div>
+        </div>
+
+        <div class="second-row">
+            <div class="card_number space">
+                <h3>Card Number:</h3>
+                <div class="input-field">
+                    <input type="text" class="number" id="number" placeholder="">
+                </div>
+            </div>
+        </div>
+
+        <div class="third-row space">
+            <h3>Expiration Date:</h3>
+            
+                <div class="selection space">
+                    <div class="date">
+                        <select name="months" id="months">
+                            
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                            
+
+                        </select>
+
+                        <select name="years" id="years">
+                            <option value="2030">2030</option>
+                            <option value="2029">2029</option>
+                            <option value="2028">2028</option>
+                            <option value="2027">2027</option>
+                            <option value="2026">2026</option>
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                        </select>
+                    </div>
+
+                    <div class="cards ">
+                        <img src="images/visa.jpg" alt="">
+                        <img src="images/paypal.png" alt="">
+                        <img src="images/mc.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
+
+
+             <a href="#">Confirm</a>
+
+        </div>
+
+        <script src="https://code.jquery-3.3.1.min.js"></script>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+
+
+        
+     </div>
+    </body>
+</html>
