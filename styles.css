@@ -19,14 +19,14 @@
 }
 
 .container{
-    width: 750px;
-    height: 500px;
+    width: 751px;
+    height: 501px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 41px;
     margin-left: 300px;
-    margin-top: 51px;
+    margin-top: 52px;
     justify-content: center;
     background-color: azure;
 
