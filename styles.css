@@ -15,18 +15,18 @@
 }
 
 .space{
-    margin-bottom: 8px;
+    margin-bottom: 9px;
 }
 
 .container{
-    width: 751px;
-    height: 501px;
+    width: 750px;
+    height: 500px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
     padding: 40px;
     margin-left: 300px;
-    margin-top: 53px;
+    margin-top: 50px;
     justify-content: center;
     background-color: azure;
 
@@ -42,7 +42,7 @@
 
 .owner{
     width: 100%;
-    margin-right: 41px;
+    margin-right: 40px;
 }
 
 .input-field{
