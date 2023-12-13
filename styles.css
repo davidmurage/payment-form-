@@ -15,7 +15,7 @@
 }
 
 .space{
-    margin-bottom: 9px;
+    margin-bottom: 10px;
 }
 
 .container{
@@ -24,7 +24,7 @@
     border: 2px solid;
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 41px;
     margin-left: 300px;
     margin-top: 50px;
     justify-content: center;
@@ -42,7 +42,7 @@
 
 .owner{
     width: 100%;
-    margin-right: 40px;
+    margin-right: 41px;
 }
 
 .input-field{
