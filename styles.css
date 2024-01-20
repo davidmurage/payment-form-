@@ -42,7 +42,7 @@
 
 .owner{
     width: 100%;
-    margin-right: 41px;
+    margin-right: 40px;
 }
 
 .input-field{
@@ -73,7 +73,7 @@ a{
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px;
-    font-size: 19px;
+    font-size: 20px;
     transition: 0.5s;
 
 }
